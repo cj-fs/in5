@@ -1,0 +1,63 @@
+h1 {
+  font-size: 15vh;
+  font-family: 'Henny Penny', cursive, sans-serif;
+}
+p {
+  font-size: 5vh;
+  font-family: 'Henny Penny', cursive, sans-serif;
+}
+h2 {
+  font-size: 15vh;
+  font-family: 'Henny Penny', cursive, sans-serif;
+}
+
+html{
+    background-color: #FFF1D6;
+}
+
+img {
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.red-span {
+  color: rgb(196, 116, 116);
+}
+.orange-span {
+  color: rgb(219, 166, 68);
+}
+.yellow-span {
+  color: rgb(167, 165, 87);
+}
+.green-span {
+  color: rgb(89, 182, 89);
+}
+.blue-span {
+  color: rgb(86, 168, 168);
+}
+.purple-span {
+  color: rgb(189, 105, 189);
+}
+.pink-span {
+  color: rgb(179, 118, 118);
+}
+.centerText {
+  text-align: center;
+}
+.rightText {
+  text-align: right;
+}
+.sizeTen {
+  font-size: 15vh;
+}
+.sizeFive {
+  font-size: 10vh;
+}
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(201, 150, 57);
+}

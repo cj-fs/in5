@@ -1,0 +1,31 @@
+h1 {
+  font-size: 20vh;
+  color: rgb(0, 0, 0);
+  font-family: 'Noto Serif', 'Oswald', sans-serif;
+}
+img {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerText {
+  text-align: center;
+}
+.fontResize {
+  font-size: 6vh;
+}
+.fontsize {
+  font-size: 4vh;
+}
+.fonts {
+  font-size: 3vh;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: lightblue;
+}

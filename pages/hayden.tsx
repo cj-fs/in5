@@ -7,6 +7,7 @@ const HaydenMain: NextPage = () => {
     <div>
       <Head>
         <link rel="stylesheet" href="./colors.css"></link>
+        <title>An Assortment of References</title>
       </Head>
       <Navbar />
       <h1 className="font">yoo mister white i want to play call of duty</h1>
@@ -54,7 +55,7 @@ const HaydenMain: NextPage = () => {
           src="/sans.png"
           alt="https://sites.google.com/site/slopeunblockedgame/"
           width="1000px"
-          height="4500"
+          height="4500px"
         ></img>
       </a>
       <p id="para3">
