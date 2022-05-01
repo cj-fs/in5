@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Friends;
+  src: url('./Friends.ttf');
+}
+.red-span {
+  color: crimson;
+}
+.yellow-span {
+  color: #daa520;
+}
+.blue-span {
+  color: rgb(12, 163, 163);
+}
+h1 {
+  font-size: 18vh;
+  color: rgb(0, 0, 0);
+  font-family: Friends, sans-serif;
+}
+.title {
+  font-size: 10vh;
+}
+.fontResize {
+  font-size: 8vh;
+}
+.fontresize {
+  font-size: 5vh;
+}
+img {
+  width: 500px;
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.centerText {
+  text-align: center;
+}
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(12, 163, 163);
+}

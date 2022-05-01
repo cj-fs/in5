@@ -1,0 +1,23 @@
+html {
+    background-color: pink;
+}
+
+h1 {
+    color: rgb(17, 226, 63);
+}
+p { color:darkgreen;
+     font-family:"Comic Sans MS" , "Comic Sans" , sans-serif;
+   text-align:left
+    }
+#para1 {
+    font-size:80px;
+}
+#para2 {
+    font-size:45px;
+}
+#para3 {
+    font-variant:inherit;
+}
+.blr {
+    border-style: dotted; border-width: 10px;
+}
