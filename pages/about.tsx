@@ -28,7 +28,7 @@ const About: NextPage = () => {
           languages, spark an interest in the field, and foster practical skills
           that can be utilized in a variety of settings.
         </p>
-        <div className="w-1/2 h-auto relative">
+        <div className="w-1/2 h-auto">
           <Image
             src="/inClass.jpg"
             alt="Students in a Session"
