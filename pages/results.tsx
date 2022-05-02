@@ -3,17 +3,20 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import { motion } from 'framer-motion'
 
 const Results: NextPage = () => {
   return (
-    <div className="flex flex-col py-2 bg-stone-100">
+    <motion.div exit={{ opacity: 0 }}
+    initial = {{opacity:0}}
+    animate = {{opacity:1}} className="flex flex-col py-2 bg-stone-100">
       <Head>
         <title>in5 | Results</title>
         <link rel="icon" href="/in5logo.ico" />
       </Head>
       <Navbar />
       <div className="mt-8 flex flex-col items-center">
-        <h1 className="text-6xl font-inter text-stone-900 font-semibold text-center mb-4">
+        <h1 className="text-6xl font-inter text-stone-900 font-bold text-center mb-4">
           Example Projects
         </h1>
         <p className="text-xl font-inter text-stone-900 font-regular text-justify w-1/2 mb-14">
@@ -31,7 +34,7 @@ const Results: NextPage = () => {
                   src={'/levi.png'}
                   alt="Levi Conner Thumbnail"
                   layout="responsive"
-                  className="cursor-pointer shadow-md"
+                  className="cursor shadow-md"
                   width={2}
                   height={1}
                 />
@@ -58,7 +61,7 @@ const Results: NextPage = () => {
                   src={'/hannah.png'}
                   alt="Hannah Clifton Thumbnail"
                   layout="responsive"
-                  className="cursor-pointer shadow shadow-md"
+                  className="cursor-pointer shadow-md"
                   width={2}
                   height={1}
                 />
@@ -81,7 +84,7 @@ const Results: NextPage = () => {
                   src={'/hayden.png'}
                   alt="Hayden Hauer Thumbnail"
                   layout="responsive"
-                  className="cursor-pointer shadow shadow-md"
+                  className="cursor-pointer shadow-md"
                   width={2}
                   height={1}
                 />
@@ -104,7 +107,7 @@ const Results: NextPage = () => {
                   src={'/judy.png'}
                   alt="Kiera Judy Thumbnail"
                   layout="responsive"
-                  className="cursor-pointer shadow shadow-md"
+                  className="cursor-pointer shadow-md"
                   width={2}
                   height={1}
                 />
@@ -127,7 +130,7 @@ const Results: NextPage = () => {
                   src={'/ashlynn.png'}
                   alt="Ashlynn Meyer Thumbnail"
                   layout="responsive"
-                  className="cursor-pointer shadow shadow-md"
+                  className="cursor-pointer shadow-md"
                   width={2}
                   height={1}
                 />
@@ -145,7 +148,7 @@ const Results: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
